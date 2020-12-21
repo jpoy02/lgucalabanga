@@ -1,0 +1,19 @@
+// utilities
+@import "./components/utilities";
+
+// global 
+@import "./components/global";
+
+//components
+@import "./components/nav";
+@import "./components/footer";
+@import "./components/cover";
+
+// pages
+@import "./modules/about";
+@import "./modules/index";
+@import "./modules/mission-vission";
+@import "./modules/news";
+@import "./modules/offices";
+@import "./modules/services";
+@import "./modules/form";

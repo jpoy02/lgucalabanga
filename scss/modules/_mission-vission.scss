@@ -1,0 +1,88 @@
+.mv-cover {
+    background: url(../img/mv-cover.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.mv {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    /* padding: 10% 5% 0 5%; */
+}
+
+.mv h1 {
+    font-size: 80px;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.mission h1 {
+    border-bottom: #D9745B solid 4px;
+}
+
+.vision h1 {
+    border-bottom: #70F570 solid 4px;
+}
+
+.bar {
+    height: 5px;
+    background: #fff;
+    width: 30%;
+}
+
+.mv-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mission,
+.vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0 0 0;
+    height: 600px;
+    border: .5px solid rgb(223, 223, 223);
+    border-radius: 25px;
+    transition: background 5s ease;
+    background: linear-gradient(205.6deg, #fff 100%, #fff 100%);
+}
+
+.mission h1,
+.vision h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 0 5% 0;
+    padding: 0 0 10px 0;
+}
+
+.mission .text,
+.vision .text {
+    padding: 20px 20%;
+    line-height: 2rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.mission img,
+.vision img {
+    height: auto;
+    width: 150px;
+    margin: 0 0 5% 0;
+}
+
+
+.mission:hover {
+    background: linear-gradient(205.6deg, #7EFBF3 1.7%, #DEEA59 97.05%);
+    border: 0px;
+}
+
+.vision:hover {
+    background: linear-gradient(205.14deg, #ECFB44 1.25%, #FB9537 98.31%);
+    border: 0px;
+}

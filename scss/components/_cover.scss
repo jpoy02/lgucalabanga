@@ -1,0 +1,39 @@
+.cover {
+    position: relative;
+    height: 400px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center fixed;
+    }
+
+    .cover-banner {
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(50%);
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        background: rgba($color: #000000, $alpha: 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            color: white;
+            font-weight: 900;
+            font-size: 60px;
+        }
+
+        span {
+            height: 10px;
+            width: 300px;
+            background: #fff;
+        }
+    }
+
+}

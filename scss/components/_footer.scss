@@ -1,0 +1,86 @@
+/* LGU FOOTER */
+
+.lgu-footer {
+
+    background: lighten($color: #363636, $amount: 5%);
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 5% 0 5%;
+    margin: 0 0 0 0;
+
+    h5 {
+        font-weight: 700;
+        padding: 20px 0 40px 0;
+        color: lighten($color: lime, $amount: 20%);
+
+    }
+}
+
+.item-hotline .text-2 {
+    font-family: $primary-font;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.item-hotline .text-1,
+.item-contact .text-1,
+.item-hotline .text-2,
+.item-contact .text-2 {
+    padding: 0 0 0 20px;
+}
+
+.item-hotline,
+.item-contact,
+.item-other {
+    font-family: Lato, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px 20px;
+}
+
+.item-hotline a,
+.item-contact a,
+.item-other a {
+    color: #fff;
+}
+
+.item-hotline a:hover,
+.item-contact a:hover,
+.item-other a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+
+    background: #363636;
+    font-size: .8rem;
+    padding: 20px 5% 0 5%;
+
+    .title {
+        font-size: 1rem;
+        color: white;
+    }
+
+    li {
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    a,
+    .web-desc {
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: lime;
+    }
+}
+
+.web-desc {
+    color: white;
+}

@@ -1,0 +1,31 @@
+.navbar-nav {
+
+    .nav-item {
+        padding: 0 3px;
+        margin: 0 5px;
+        transition: all 100ms ease-in-out;
+        transform: translateX(-100);
+    }
+
+    .nav-item.active {
+        border-bottom: limegreen 4px solid;
+    }
+
+    .nav-item:hover {
+        border-bottom: limegreen 4px solid;
+    }
+}
+
+
+
+.office-dm {
+    z-index: 3;
+    columns: 3 !important;
+}
+
+@media (max-width: 1280px) {
+
+    .office-dm {
+        columns: 1;
+    }
+}

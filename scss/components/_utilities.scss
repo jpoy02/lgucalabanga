@@ -1,0 +1,66 @@
+// Variabbles
+$primary-font: 'Montserrat',
+sans-serif;
+$secondary-font: 'Roboto',
+sans-serif;
+
+
+$primary-color: linear-gradient(85.72deg, #44ED28 0%, #15FF81 100.29%);
+$secondary-color: linear-gradient(155.05deg, #FF8383 0.87%, #FFAA2B 98.17%);
+$color-black: #363636;
+$background-color:  #F8F9FA;
+$dropshadow: 0px 2px 5px rgba(54, 54, 54, 0.1);
+
+
+.brd {
+    border: 1px solid red;
+}
+
+.padding {
+    padding: 20px 0;
+}
+
+.or-1 {
+    order: 1
+}
+
+.or-2 {
+    order: 2;
+}
+
+.line {
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 2px;
+    background-color: gainsboro;
+}
+
+.primary-btn {
+    color: #fff;
+    border: 2px transparent solid;
+    border-radius: 5px;
+    background: $primary-color;
+}
+
+.primary-btn:hover {
+    color: $secondary-color;
+    border: 2px transparent solid;
+    border-radius: 5px;
+    background: $primary-color;
+}
+
+.primary-btn-outline {
+    color: lime;
+    // font-weight: 500;
+    border-radius: 5px;
+    // padding: 10px 20px;
+    border: 2px lime solid;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.primary-btn-outline:hover {
+    color: #fff;
+    border: 1px transparent solid;
+    background: $primary-color;
+}

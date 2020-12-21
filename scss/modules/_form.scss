@@ -1,0 +1,110 @@
+textarea:active,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border-color: rgba(126, 239, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+
+.form-application {
+    h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    ::-webkit-input-placeholder {
+        font-style: italic;
+        color: darken($color: #fff, $amount: 20%);
+        font-size: medium;
+    }
+
+
+    .form-group {
+        text-align: justify;
+
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    input, textarea, select {
+        text-transform: uppercase;
+    }
+}
+
+.secondary-label {
+    font-size: 16px;
+}
+
+.note {
+    
+    font-style: italic;
+
+    span {
+        color: red;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+.submit-container {
+    display: flex;
+    justify-content: flex-end;
+
+    .cancel-btn, .submit-btn {
+        margin: 0px 10px;
+    }
+
+
+    .cancel-btn {
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: 1px solid rgb(207, 207, 207);
+        background: white;
+        color: #363636;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .submit-btn {
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: none;
+        background: $primary-color;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+.rol-specify, .proj-tenure-specify, .existing-land-specify{
+    display: none;
+}
+
+.rol-specify.active, .proj-tenure-specify.active, .existing-land-specify.active {
+    display: block;
+}
+
+.logo-container {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-serbisyo {
+    width: 70%;
+}
